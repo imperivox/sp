@@ -7,11 +7,11 @@ function performConversion() {
 
   // Conversion factors
   const conversionFactors = {
-    cups: { ml: 236.588, "fl oz": 8, tbsp: 16, tsp: 48, g: 236.588 },
-    ml: { cups: 0.0042, "fl oz": 0.0338, tbsp: 0.0671, tsp: 0.2029, g: 1 },
-    "fl oz": { cups: 0.125, ml: 29.5735, tbsp: 2, tsp: 6 },
-    tbsp: { cups: 0.0625, ml: 14.7868, "fl oz": 0.5, tsp: 3, g: 14.7868 },
-    tsp: { cups: 0.0208, ml: 4.9289, "fl oz": 0.1667, tbsp: 0.3333, g: 4.9289 },
+    cups: { ml: 236.588, floz: 8, tbsp: 16, tsp: 48, g: 236.588 },
+    ml: { cups: 0.0042, floz: 0.0338, tbsp: 0.0671, tsp: 0.2029, g: 1 },
+    floz: { cups: 0.125, ml: 29.5735, tbsp: 2, tsp: 6 },
+    tbsp: { cups: 0.0625, ml: 14.7868, floz: 0.5, tsp: 3, g: 14.7868 },
+    tsp: { cups: 0.0208, ml: 4.9289, floz: 0.1667, tbsp: 0.3333, g: 4.9289 },
     oz: { g: 28.3495, lb: 0.0625 },
     g: { oz: 0.0353, lb: 0.0022, kg: 0.001 },
     lb: { oz: 16, g: 453.592, kg: 0.454 },
